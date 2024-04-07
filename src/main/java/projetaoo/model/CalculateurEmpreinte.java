@@ -18,10 +18,12 @@ public class CalculateurEmpreinte {
         // Constructeur privé pour empêcher l'instanciation de la classe
     }
 
-    public static float calculerEmpreinteEnergie(Map<Month, Float> map) {
+    public static float calculerEmpreinteEnergie(Map<Object, Object> map) {
         float empreinteTotale = 0;
-        for (Float conso : map.values()) {
-            empreinteTotale += conso * FACTEUR_EMISSION_ELECTRICITE;
+        for (Object conso : map.values()) {
+            if (conso instanceof Float) {
+                empreinteTotale += (Float) conso * FACTEUR_EMISSION_ELECTRICITE;
+            }
         }
         return empreinteTotale; // return en kg CO2
     }
@@ -69,7 +71,7 @@ public class CalculateurEmpreinte {
     }
 
     public static float calculerEmpreinteTotale(Utilisateur utilisateur) {
-        float empreinteEnergie = calculerEmpreinteEnergie(utilisateur.getConsoEnergie());
+        float empreinteEnergie = calculerEmpreinteEnergie(utilisateur.getConsoEnergie().getConsommations());
         float empreinteAchats = calculerEmpreinteAchats(utilisateur.getHabitudeAchat());
         float empreinteTransport = calculerEmpreinteTransport(utilisateur.getMinutesMoyenTransport());
         return empreinteEnergie + empreinteAchats + empreinteTransport;

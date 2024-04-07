@@ -15,7 +15,7 @@ public class CalculateurEmpreinteService {
         @SuppressWarnings("null")
         Utilisateur utilisateur = utilisateurRepository.findById(utilisateurId)
                 .orElseThrow(() -> new RuntimeException("Utilisateur non trouvé"));
-        float empreinteEnergie = CalculateurEmpreinte.calculerEmpreinteEnergie(utilisateur.getConsoEnergie());
+        float empreinteEnergie = CalculateurEmpreinte.calculerEmpreinteEnergie(utilisateur.getConsoEnergie().getConsommations());
         float empreinteTransport = CalculateurEmpreinte
                 .calculerEmpreinteTransport(utilisateur.getMinutesMoyenTransport());
         float empreinteAchats = CalculateurEmpreinte.calculerEmpreinteAchats(utilisateur.getHabitudeAchat());
