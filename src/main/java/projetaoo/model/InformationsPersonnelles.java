@@ -2,12 +2,20 @@ package projetaoo.model;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "informations_personnelles")
 public class InformationsPersonnelles {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id; // Ajout d'un champ ID
+    
     private String nom;
     private int age;
     private String paysResidence;

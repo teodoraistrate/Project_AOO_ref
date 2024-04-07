@@ -1,5 +1,8 @@
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/controller/HomeController.java
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/model/ApiDataManager.java
+/Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/model/ConsommationInterface.java
+/Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/model/ConsommationEau.java
+/Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/model/InformationsPersonnelles.java
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/repository/VideoEducativeRepository.java
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/service/UtilisateurService.java
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/repository/ArticleRepository.java
@@ -21,6 +24,7 @@
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/service/CalculateurEmpreinteService.java
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/model/MoyenTransport.java
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/model/BaseCarboneDataParser.java
+/Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/model/ConsommationEnergie.java
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/model/Commentaire.java
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/model/HabitudeAchat.java
 /Users/teodoraistrate/school/L3/S2/ISI5 - Architecture Orientée Objet/Project_AOO_ref/src/main/java/projetaoo/controller/UtilisateurController.java
